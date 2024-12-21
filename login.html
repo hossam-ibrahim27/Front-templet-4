@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurelle | Login</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/all.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="card mb-3 border-0 user-info">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img
+            src="images/background-1.png"
+            class="img-fluid  img-back"
+            alt="Background For Register"
+            draggable="false"
+          />
+        </div>
+        <div class="col-md-6 bg-white">
+          <div class="card-body">
+            <nav
+              class="navbar navbar-light bg-light text-capitalize rounded-2 mt-0 mb-5"
+            >
+              <div class="container">
+                <a class="navbar-brand fs-2 text-primary" href="#">
+                  <img
+                    src="images/icon-1.png"
+                    alt=""
+                    width="60"
+                    height="60"
+                    draggable="false"
+                  />| aurora legend fashion
+                </a>
+              </div>
+            </nav>
+            <form class="row g-3 needs-validation fs-5 my-5" novalidate>
+              <div class="col-md-12">
+                <label for="validationCustom01" class="form-label"
+                  >Username</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please input a Username.</div>
+              </div>
+              <div class="col-md-12">
+                <label for="validationCustom02" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="validationCustom02"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please input An Email.</div>
+              </div>
+              <div class="col-md-12">
+                <label for="inputPassword3" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword3"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please input a Passowerd.</div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label class="form-check-label" for="gridCheck">
+                    Remember Me
+                  </label>
+                </div>
+                <div class="col-12 fs-5">
+                  <div class="row">
+                    <span>Don't Have An Account?<a
+                      class="text-decoration-none link-underln fs-5 ms-2"
+                      href="register.html"
+                      >Creat A New Account</a
+                    ></span>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-7">
+                <button
+                  type="submit"
+                  class="btn btn-success me-1 fs-5"
+                  id="login-submit"
+                >
+                  Log-in
+                </button>
+                <button type="reset" class="btn btn-danger fs-5">Reset</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ****************************************************************************** -->
+    <script src="JS/jquery-3.7.1.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/login.js"></script>
+  </body>
+</html>

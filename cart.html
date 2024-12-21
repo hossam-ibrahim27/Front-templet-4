@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurelle | Cart </title>
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/all.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+    
+     <!-- *******************1)header-Section***************************** -->
+<header class="position-relative">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary-subtle">
+      <div class="container-fluid">
+        <a class="navbar-brand  ms-3 fs-3" href="#">
+          <img  src="images/icon-1.png" alt="" width="40" height="40" draggable="false"/>
+          <span>|</span> aurora legend fashion</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active fs-4 text-capitalize" aria-current="page" href="#">cart</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4  text-capitalize underline" aria-current="page" href="index.html">Home</a>
+            </li>
+          </ul> <!-- /navbar-linkes -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3 second-nav">
+            <li class="nav-item">
+              <a class="nav-link  fs-4 text-capitalize"  href="login.html" id="home-login">login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-4 text-capitalize" href="register.html" id="home-register">register</a>
+            </li>
+          </ul>  <!-- /navbar-form -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3 afterRegister-nav" id="afterRegister-nav">
+            <li class="nav-item">
+              <a class="nav-link  fs-4 text-capitalize" href="#" id="userafterreg"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  fs-4 text-capitalize" href="#" class="cartIcon" id="cartIcon">
+                <i class="fa-solid fa-cart-shopping position-relative">
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">0</span>
+                </i> 
+                <span id="arrowCart"><i class="fas fa-sort-down"></i></span>
+              </a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link  fs-4 text-capitalize" href="#" id="log-out">Log-Out</a>
+            </li>
+          </ul> <!-- /navbar-third -->
+  
+        </div> <!-- /collapse -->
+      </div>  <!-- /container-fluid -->
+    </nav>
+    </header>
+    <!-- *******************2)Product-Section***************************** -->
+    <section>
+        <div class="container mt-5">
+            <div class="mb-5 text-center productHead rounded-1 p-1">
+                <h2 class="h2 text-capitalize" id="choosenCart">Choosen Product</h2>
+              </div> <!-- /product-heade -->
+            <div class="row row-cols-2 row-cols-md-4 g-4 fs-5" id="drawProductInBom">
+            </div> <!-- /row -->
+        </div>
+        <div class="container mt-5" id="ShowCartPrice">
+            <div class="mb-5 text-center productHead rounded-1 p-1">
+                <h2 class="h2 text-capitalize"></h2>
+              </div> <!-- /product-heade -->
+        </div>
+    </section>
+    <!-- *******************2)Product-Section***************************** -->
+    <section>
+        <div class="container mt-5">
+            <div class="mb-5 text-center productHead rounded-1 p-1">
+                <h2 class="h2 text-capitalize" id="favouritCart">Favourit Product</h2>
+              </div> 
+            <div class="row row-cols-2 row-cols-md-4 g-4 fs-5" id="drawProductInBom2">
+            </div> 
+        </div>
+        <div class="container mt-5" id="ShowfavouritPrice">
+            <div class="mb-5 text-center productHead rounded-1 p-1">
+                <h2 class="h2 text-capitalize text-primary"></h2>
+              </div> 
+        </div>
+    </section>
+  <!-- ***************************************************************************** -->
+    <script src="JS/jquery-3.7.1.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/user.js"></script>
+    <script src="JS/cart.js"></script>
+</body>
+</html>
